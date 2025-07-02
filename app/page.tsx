@@ -342,7 +342,7 @@ export default function Portfolio() {
                   asChild
                 >
                   <a
-                    href="https://drive.google.com/file/d/1RBV7IeyDpYZPJEVw3BvFZXz_TfMWze4r/view?usp=drivesdk"
+                    href="https://drive.google.com/file/d/1F_UkDyMMUy6bLXRgrnwpH06wZcC8mLkg/view?usp=drive_link"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -427,7 +427,7 @@ export default function Portfolio() {
                   <div className="relative">
                     <div className="w-full h-64 rounded-lg overflow-hidden border border-slate-700 shadow-xl">
                       <img
-                        src="/profile-photo.jpg"
+                        src="/profile-photo2.jpg"
                         alt="Lokesh Konathala"
                         className="w-full h-full object-cover hover:scale-110 transition-all duration-500"
                       />
@@ -472,7 +472,7 @@ export default function Portfolio() {
                       <strong className="text-blue-400">Duration:</strong> 2022 - 2026
                     </p>
                     <p className="text-slate-300">
-                      <strong className="text-purple-400">CGPA:</strong> 6.95
+                      <strong className="text-purple-400">CGPA:</strong> 6.75
                     </p>
                   </div>
                   <div>
@@ -823,6 +823,41 @@ export default function Portfolio() {
                 </Button>
               </CardContent>
             </Card>
+
+            {/*Full-Stack Web Dev Bootcamp (Udemy) */}
+            <Card className="border-0 shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-4 hover:rotate-1 animate-on-scroll opacity-0 translate-y-8 group overflow-hidden bg-slate-800 border border-slate-700 animation-delay-200">
+              <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/10 to-yellow-600/10 transform scale-0 group-hover:scale-100 transition-transform duration-500 origin-center"></div>
+              <CardHeader className="relative">
+                <div className="flex items-center space-x-3">
+                  <div className="p-2 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-lg transform group-hover:rotate-12 group-hover:scale-110 transition-all duration-300">
+                    <Award className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <CardTitle className="text-lg text-white group-hover:text-yellow-400 transition-colors duration-300">
+                     Full-Stack Web Dev Bootcamp
+                    </CardTitle>
+                    <CardDescription className="text-slate-300">Udemy</CardDescription>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent className="relative">
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="border-yellow-600 text-yellow-400 hover:bg-yellow-900/50 transform hover:scale-105 transition-all duration-200 w-full"
+                  asChild
+                >
+                  <a
+                    href="https://drive.google.com/file/d/1RaoI9ij63RCVUAP4AQ3u2jzUCMnGjbql/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <ExternalLink className="w-4 h-4 mr-2" />
+                    View Certificate
+                  </a>
+                </Button>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
@@ -1006,10 +1041,7 @@ export default function Portfolio() {
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-purple-600/10 animate-pulse-slow"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center">
-            <p className="text-slate-400 animate-fade-in">© 2024 Lokesh Konathala. All rights reserved.</p>
-            <p className="text-slate-500 mt-2 animate-fade-in animation-delay-200">
-              Built with Next.js and Tailwind CSS
-            </p>
+            <p className="text-slate-400 animate-fade-in">© 2025 Lokesh Konathala. All rights reserved.</p>
           </div>
         </div>
       </footer>
