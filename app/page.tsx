@@ -1027,5 +1027,15 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
+        {/* Footer */}
+      <footer className="bg-gradient-to-r from-slate-900 via-blue-900 to-slate-900 text-white py-8 relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-purple-600/10 animate-pulse-slow"></div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+          <div className="text-center">
+            <p className="text-slate-400 animate-fade-in">© Lokesh Konathala.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
   )
 }
