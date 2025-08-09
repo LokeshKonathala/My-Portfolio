@@ -254,15 +254,7 @@ export default function Portfolio() {
                 className="border-green-600 text-green-400 hover:bg-green-600 hover:text-white w-full"
                 asChild
               >
-                <a
-                  href="https://drive.google.com/file/d/1RBV7IeyDpYZPJEVw3BvFZXz_TfMWze4r/view?usp=drivesdk"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Eye className="w-4 h-4 mr-2" />
-                  View Resume
-                </a>
-              </Button>
+            
             </div>
           </div>
         </div>
@@ -472,7 +464,7 @@ export default function Portfolio() {
                       <strong className="text-blue-400">Duration:</strong> 2022 - 2026
                     </p>
                     <p className="text-slate-300">
-                      <strong className="text-purple-400">CGPA:</strong> 6.75
+                      <strong className="text-purple-400">CGPA:</strong> 6.77
                     </p>
                   </div>
                   <div>
